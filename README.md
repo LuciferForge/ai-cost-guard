@@ -1,5 +1,10 @@
 # ai-cost-guard
 
+[![PyPI version](https://img.shields.io/pypi/v/ai-cost-guard)](https://pypi.org/project/ai-cost-guard/)
+[![PyPI - Downloads](https://img.shields.io/pypi/dm/ai-cost-guard)](https://pypi.org/project/ai-cost-guard/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
+
 **Budget enforcement and cost tracking for LLM applications.**
 
 Stop runaway API spend from bugs, prompt injection, or retry loops — before it hits your credit card.
@@ -39,7 +44,7 @@ pip install ai-cost-guard
 
 Or from source:
 ```bash
-git clone https://github.com/yourusername/ai-cost-guard
+git clone https://github.com/manja316/ai-cost-guard
 cd ai-cost-guard
 pip install -e ".[dev]"
 ```

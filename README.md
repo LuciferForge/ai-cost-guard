@@ -21,12 +21,12 @@ def call_claude(prompt: str):
 
 Part of the **AI Agent Infrastructure Stack**:
 - **ai-cost-guard** — budget enforcement ← you are here
-- [ai-injection-guard](https://github.com/manja316/prompt-shield) — prompt injection scanner
-- [ai-decision-tracer](https://github.com/manja316/ai-trace) — local agent decision tracer
+- [ai-injection-guard](https://github.com/LuciferForge/prompt-shield) — prompt injection scanner
+- [ai-decision-tracer](https://github.com/LuciferForge/ai-trace) — local agent decision tracer
 
 **Claude Code users** — install the whole stack in one command:
 ```
-/plugin marketplace add manja316/ai-agent-stack-skill
+/plugin marketplace add LuciferForge/lucifer-skills
 ```
 
 ---
@@ -54,7 +54,7 @@ pip install ai-cost-guard
 
 Or from source:
 ```bash
-git clone https://github.com/manja316/ai-cost-guard
+git clone https://github.com/LuciferForge/ai-cost-guard
 cd ai-cost-guard
 pip install -e ".[dev]"
 ```

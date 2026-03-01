@@ -19,6 +19,16 @@ def call_claude(prompt: str):
     return client.messages.create(...)   # blocked if budget exceeded
 ```
 
+Part of the **AI Agent Infrastructure Stack**:
+- **ai-cost-guard** — budget enforcement ← you are here
+- [ai-injection-guard](https://github.com/manja316/prompt-shield) — prompt injection scanner
+- [ai-decision-tracer](https://github.com/manja316/ai-trace) — local agent decision tracer
+
+**Claude Code users** — install the whole stack in one command:
+```
+/plugin marketplace add manja316/ai-agent-stack-skill
+```
+
 ---
 
 ## Why this exists
